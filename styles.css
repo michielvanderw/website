@@ -2,18 +2,18 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
+  color: #121212;
 }
 h1 {
-    margin: 50px 50px 25px 100px;
+    margin: 10px 10px 10px 10px;
 }
 p {
   color: red;
 }
 p {
-  margin: 25px 50px 75px 100px;
+  margin: 10px 10px 10px 10px;
 }
 img {
-    margin: 25px 50px 75px 100px;
+    margin: 10px 10px 10px 10px;
 }
 
