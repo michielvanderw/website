@@ -5,7 +5,7 @@ h1 {
   color: blue;
 }
 h1 {
-    margin: 95px 50px 25px 20px;
+    margin: 50px 50px 25px 100px;
 }
 p {
   color: red;
@@ -13,3 +13,7 @@ p {
 p {
   margin: 25px 50px 75px 100px;
 }
+img {
+    margin: 25px 50px 75px 100px;
+}
+
