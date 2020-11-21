@@ -7,3 +7,6 @@ h1 {
 p {
   color: red;
 }
+p {
+  margin: 25px 50px 75px 100px;
+}
