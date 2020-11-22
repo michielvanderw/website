@@ -2,6 +2,10 @@ body {
     background-color: #00030C;
 }
 
+h1 {
+    color: powderblue
+}
+
 .logostyle {
     position: fixed;
     top: 50%;
@@ -20,6 +24,3 @@ body {
     width: auto\9; /* ie8 */
 }
 
-h1 {
-    color: powderblue
-}
