@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: powderblue;
   padding: 20px;
   font-family: Arial;
 }
@@ -15,18 +15,27 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 10px;
   word-break: break-all;
 }
 
+h2 {
+    font-size: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    word-break: break-all;
+    margin-bottom: 2px;
+    
+}
+
+
 .row {
-  margin: 8px -16px;
+  margin: 8px -26px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 12px;
 }
 
 /* Create four equal columns that floats next to each other */
@@ -60,4 +69,9 @@ h1 {
   .column {
     width: 100%;
   }
+}
+.center {
+  display: block;
+  margin-right: auto;
+  width: 50%;
 }
