@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: #00030C;
 }
 
 .logostyle {
@@ -18,4 +18,8 @@ body {
     max-width: 80%;
     height: auto;
     width: auto\9; /* ie8 */
+}
+
+h1 {
+    color: powderblue
 }
