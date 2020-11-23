@@ -1,5 +1,6 @@
 body {
-    background-color: #00030C;
+    background-color: #0B0E19;
+    margin: 0px;
 }
 
 h1 {
@@ -42,4 +43,162 @@ a:link {
 a:visited {
   color: powderblue;
   text-decoration: none;
+}
+
+nav {
+  width:100%;
+  background: #00030C;
+  overflow: auto;
+  margin-bottom: 0px;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 0 110px;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+  margin: 0 1vw;
+  font-size: 2vw;
+}
+
+.logo img{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: -10px;
+  width: 5vw;
+}
+
+nav a {
+  width: 260px;
+  display: block;
+  padding: 2vw;
+  text-decoration: none;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  color: #FFE0E0;
+  text-align: center;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background: powderblue;
+  color: black;
+}
+
+@media only screen and (max-width: 900px) {
+  /*shows elements in a column*/
+  ul{
+    flex-direction: column;
+  }
+
+  .logo img{
+    width: 70px;
+  }
+
+  /* deletes margin on top or bottom of the a tag*/
+  li{
+    margin: 0;
+    text-align: center;
+  }
+ /* makes sure that the a tag will take the entire screen*/
+  a{
+    display: block;
+  }
+}
+
+button{
+  display: none;
+  align-self: flex-start;
+}
+
+@media only screen and (max-width: 500px) {
+   ....
+
+  button{
+    /*makes the button visible*/
+    display: block;
+
+    /*since we are here, we can style it a little bit!*/
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #AFE0FF;
+    border: none;
+
+    /*outline none removes the default blue border that appears anytime you click on the button*/
+    outline: none;
+
+    cursor: pointer;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.gallery {
+  border: 1px solid black;
+  background-color: #FFE0E0;
+  margin: 20px
+}
+
+div.gallery:hover {
+  border: 1px solid #A3E9F2;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 5px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
