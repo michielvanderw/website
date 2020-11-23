@@ -62,7 +62,7 @@ ul {
 li {
   float: left;
   list-style-type: none;
-  margin: 0 1vw;
+  margin: 0 0vw;
   font-size: 2vw;
 }
 
@@ -91,7 +91,7 @@ nav a:hover {
   color: black;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 500px) {
   /*shows elements in a column*/
   ul{
     flex-direction: column;
@@ -112,37 +112,6 @@ nav a:hover {
   }
 }
 
-button{
-  display: none;
-  align-self: flex-start;
-}
-
-@media only screen and (max-width: 500px) {
-   ....
-
-  button{
-    /*makes the button visible*/
-    display: block;
-
-    /*since we are here, we can style it a little bit!*/
-    padding: 2vw;
-    font-size: 3vh;
-    background-color: #AFE0FF;
-    border: none;
-
-    /*outline none removes the default blue border that appears anytime you click on the button*/
-    outline: none;
-
-    cursor: pointer;
-  }
-}
-
-
-
-
-
-
-
 
 
 
@@ -153,7 +122,7 @@ button{
 
 
 div.gallery {
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: #FFE0E0;
   margin: 20px
 }
